@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import logoDesktop from "../assets/imgs/logo/logoDesktop.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
-import heroDefaultMobileImg from "../assets/imgs/hero/lawHeroMobile.webp";
+import heroDefaultMobileImg from "../assets/imgs/hero/lawHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 

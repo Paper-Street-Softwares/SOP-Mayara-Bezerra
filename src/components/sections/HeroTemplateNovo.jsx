@@ -242,7 +242,7 @@ function HeroTemplateNovo({
               className="relative order-1 lg:order-2"
             >
               <div
-                className={`relative rounded-[1.5rem] phone3:rounded-[2.5rem] overflow-hidden aspect-[2/1] phone3:aspect-[3/2] md:aspect-[3/2] lg:aspect-[3/4] ring-1 ring-black/5 ${borderColor} ${image}`}
+                className={`relative overflow-hidden rounded-[2.5rem] aspect-[3/4] ring-1 ring-black/5 ${borderColor} ${image}`}
               >
                 <img
                   src={content.texts.hero.heroDefaulMobiletImg}
