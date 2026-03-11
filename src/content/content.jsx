@@ -135,7 +135,7 @@ const content = {
         </>
       ),
       miniTag: <>Advocacia com experiência real</>,
-      FirstPart: <span>Advogada com +8 anos</span>,
+      FirstPart: <span>Advogada com mais de 8 anos </span>,
       Destaque: (
         <span className="destaque relative italic font-light">defendendo</span>
       ),
