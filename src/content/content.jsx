@@ -62,8 +62,8 @@ export const infos = {
   domain: "mayarabezerraadvocacia.com.br", // Sem "www"
   phone: {
     ddd: "64",
-    firstPart: "9924", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "04641", // Apenas os 4 últimos números
+    firstPart: "99240", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4641", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
