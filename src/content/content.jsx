@@ -22,6 +22,12 @@ import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 // import imgproof5 from "../assets/imgs/socialProof/socialproof5.webp";
 // import imgproof6 from "../assets/imgs/socialProof/socialproof6.webp";
 
+import img1Deposition from "../assets/imgs/depositions/deposition1.webp";
+import img2Deposition from "../assets/imgs/depositions/deposition2.webp";
+import img3Deposition from "../assets/imgs/depositions/deposition3.webp";
+import img4Deposition from "../assets/imgs/depositions/deposition4.webp";
+import img5Deposition from "../assets/imgs/depositions/deposition5.webp";
+
 import {
   Baby,
   Briefcase,
@@ -234,7 +240,7 @@ const content = {
         card1: {
           title: <>Direito Trabalhista</>,
           subtitle: (
-            <>Defesa de direitos em rescisões, horas extras e verbas.</>
+            <>ACIDENTE DO TRABALHO, rescisões, horas extras e verbas.</>
           ),
           description: (
             <div>
@@ -499,6 +505,39 @@ const content = {
         },
       },
       ctaButtonText: <>Falar com a Advogada</>,
+    },
+    depositions: {
+      miniTag: <>DEPOIMENTOS</>,
+      FirstPart: <span>Veja o que nossos clientes estão dizendo </span>,
+      Destaque: <span className="italic font-light"> </span>,
+      SecondPart: <span></span>,
+      subtitle: (
+        <>
+          Resultados reais de pessoas comuns que decidiram dar o próximo passo.
+        </>
+      ),
+      imagens: {
+        img1: {
+          img: img1Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+        img2: {
+          img: img2Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+        img3: {
+          img: img3Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+        img4: {
+          img: img4Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+        img5: {
+          img: img5Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+      },
     },
     blog: {
       miniTag: <>A_Definir</>,
