@@ -53,7 +53,6 @@ export default function Depositions({ colorMode }) {
           miniTitle={content.texts.depositions.miniTag}
           title={content.texts.depositions.FirstPart}
           subtitle={content.texts.depositions.subtitle}
-          className={`mb-6`}
         />
 
         <SectionWrapper className="flex justify-center">
