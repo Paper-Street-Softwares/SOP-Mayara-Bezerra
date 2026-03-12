@@ -518,15 +518,15 @@ const content = {
       ),
       imagens: {
         img1: {
-          img: img1Deposition,
-          alt: "Imagem ilustrativa do Feedback de Cliente",
-        },
-        img2: {
           img: img2Deposition,
           alt: "Imagem ilustrativa do Feedback de Cliente",
         },
-        img3: {
+        img2: {
           img: img3Deposition,
+          alt: "Imagem ilustrativa do Feedback de Cliente",
+        },
+        img3: {
+          img: img1Deposition,
           alt: "Imagem ilustrativa do Feedback de Cliente",
         },
         img4: {
