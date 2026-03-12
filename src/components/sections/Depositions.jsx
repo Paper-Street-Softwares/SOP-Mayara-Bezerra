@@ -64,7 +64,7 @@ export default function Depositions({ colorMode }) {
                   key={index}
                   src={item.img}
                   alt={item.alt}
-                  className="w-[90%] mx-auto border-2 border-primaryDark/50 rounded-md"
+                  className="w-[90%] mx-auto border-2 border-primaryDark/20 shadow-md rounded-md"
                 />
               ))}
               {/* <Carousel
