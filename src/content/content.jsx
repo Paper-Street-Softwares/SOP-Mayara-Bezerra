@@ -273,7 +273,9 @@ const content = {
 
         card3: {
           title: <>Direito de Família</>,
-          subtitle: <>Divórcio, pensão, guarda e acordos familiares.</>,
+          subtitle: (
+            <>Inventários, divórcio, pensão, guarda e acordos familiares.</>
+          ),
           description: (
             <div>
               A_Definir
