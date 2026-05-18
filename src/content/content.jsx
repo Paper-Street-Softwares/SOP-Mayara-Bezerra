@@ -141,9 +141,9 @@ const content = {
         </>
       ),
       miniTag: <>Advocacia com experiência real</>,
-      FirstPart: <span>Advogada com mais de 8 anos </span>,
+      FirstPart: <span>Advogada com mais de 10 anos </span>,
       Destaque: (
-        <span className="destaque relative italic font-light">defendendo</span>
+        <span className="relative italic font-light destaque">defendendo</span>
       ),
       SecondPart: <span>direitos</span>,
       subtitle: (
@@ -364,13 +364,13 @@ const content = {
       subtitle: (
         <>
           {" "}
-          Advogada com mais de 8 anos de atuação e experiência em mais de 1.000
+          Advogada com mais de 10 anos de atuação e experiência em mais de 1.000
           casos.
         </>
       ),
       paragraph: (
         <div>
-          Dra. Mayara Bezerra é advogada com mais de 8 anos de atuação na área
+          Dra. Mayara Bezerra é advogada com mais de 10 anos de atuação na área
           jurídica, dedicando sua carreira à defesa de direitos e à orientação
           segura de seus clientes em momentos decisivos.
         </div>
@@ -403,7 +403,7 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
-          Dra. Mayara Bezerra é advogada com mais de 8 anos de atuação na área
+          Dra. Mayara Bezerra é advogada com mais de 10 anos de atuação na área
           jurídica, dedicando sua carreira à defesa de direitos e à orientação
           segura de seus clientes em momentos decisivos.
           <br />
