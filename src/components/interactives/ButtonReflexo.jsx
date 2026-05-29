@@ -28,12 +28,12 @@ export default function ButtonReflexo({
     variant === "secondary"
       ? "shadow-none"
       : isLigar
-        ? "shadow-red-500/30"
-        : effectiveWhatsAppColor
-          ? "shadow-wppLight/30"
-          : colorMode === "dark"
-            ? "shadow-primaryLight/20"
-            : "shadow-primaryDark/20";
+      ? "shadow-red-500/30"
+      : effectiveWhatsAppColor
+      ? "shadow-wppLight/30"
+      : colorMode === "dark"
+      ? "shadow-primaryLight/20"
+      : "shadow-primaryDark/20";
 
   const shineThemes = {
     light: "bg-white/40",
@@ -51,8 +51,8 @@ export default function ButtonReflexo({
   const primaryColors = resolvedTheme
     ? resolvedTheme[colorMode]
     : effectiveWhatsAppColor
-      ? whatsAppThemes[colorMode]
-      : (bgClass ?? defaultButtonThemes[colorMode]);
+    ? whatsAppThemes[colorMode]
+    : bgClass ?? defaultButtonThemes[colorMode];
 
   const secondaryColors = bgClass ?? defaultButtonThemesSecondary[colorMode];
 
@@ -65,23 +65,46 @@ export default function ButtonReflexo({
     return null;
   }
 
+  const handleConversionClick = (e) => {
+    if (typeof window !== "undefined" && window.gtag) {
+      e.preventDefault();
+
+      let opened = false;
+
+      const openLink = () => {
+        if (!opened) {
+          opened = true;
+          window.open(link, "_blank", "noopener,noreferrer");
+        }
+      };
+
+      window.gtag("event", "conversion", {
+        send_to: "AW-762884559/dgZACNWe0bUcEM_j4usC",
+        event_callback: openLink,
+      });
+
+      setTimeout(openLink, 1000);
+    }
+  };
+
   return (
     <a
+      {...props}
       target="_blank"
       rel="noopener noreferrer"
       href={link}
       aria-label="Botão"
+      onClick={handleConversionClick}
       className={`${className}
-        relative overflow-hidden inline-flex items-center justify-center
-        ${colors}
-        ${spacing}
-        font-normal font-secondFont rounded-full text-lg
-        transition-all scale-100 hover:scale-90 duration-500
-        ${shadowClass}
-        gap-3 text-paragraph3 tablet1:text-paragraph4
-        min-w-[10px] text-center cursor-pointer
-      `}
-      {...props}
+    relative overflow-hidden inline-flex items-center justify-center
+    ${colors}
+    ${spacing}
+    font-normal font-secondFont rounded-full text-lg
+    transition-all scale-100 hover:scale-90 duration-500
+    ${shadowClass}
+    gap-3 text-paragraph3 tablet1:text-paragraph4
+    min-w-[10px] text-center cursor-pointer
+  `}
     >
       {reflexAnimation && (
         <span
